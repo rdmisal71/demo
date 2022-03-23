@@ -1,0 +1,24 @@
+
+version: '0.2'
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  pre_build:
+    commands:
+      - echo "Prebuild, installing npm dependencies"
+      - npm install npm@latest -g
+      - npm i -g @angular/cli
+      - npm install
+  build:
+    commands:
+      - echo "Starting the build step"
+      - npm run dev
+      - echo "Finished"
+artifacts:
+  files:
+    - "dist/**/*"
+  discard-paths: no
+
+
+
