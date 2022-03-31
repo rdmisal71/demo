@@ -1,3 +1,9 @@
 In the last month, we added new features to Terragrunt which allowed us to minimize code duplication in the Reference Architecture, 
 reducing its size by nearly 50%! We also added a new module for AWS Backup, launched a new knowledge base as a centralized way to capture questions, 
-feedback, and all other types of discussions, and made many other fixes and improvements. On the security side, 
+feedback, and all other types of discussions, and made many other fixes and improvements. On the security side,
+
+
+HashiCorp IPO
+What happened: HashiCorp had their initial public offering (IPO), raising $1.2B.
+Why it matters: An IPO can bring many benefits to a company: more money, more public awareness and brand recognition, more stability, etc.
+What to do about it: Congratulate to everyone at HashiCorp on this huge milestone!
